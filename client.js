@@ -187,7 +187,10 @@ window.__ModuleLoader__.load({
   padding: 12px;
   border-radius: 12px;
   border: 1px solid var(--dsw-alias-border-l1);
-  background: var(--dsw-alias-bg-overlay);
+  /* Opaque raised surface, matching the sent-message preview. A translucent
+     overlay token made the same card look gray over the composer and white
+     over the transcript. */
+  background: var(--dsw-alias-bg-layer-1);
   color: var(--dsw-alias-label-primary);
   box-shadow: 0 16px 40px rgba(0, 0, 0, 0.18);
   pointer-events: auto;
@@ -703,7 +706,7 @@ window.__ModuleLoader__.load({
           'data-inline-comment-chip': '',
           role: 'button',
           tabIndex: 0,
-          'aria-label': `${t('chipLabel')}${summary ? ` · ${summary}` : ''}`,
+          'aria-label': summary ? `${t('chipLabel')}：${summary}` : t('chipLabel'),
           onMouseEnter: show,
           onMouseLeave: () => schedulePeekHide(),
           onClick: show,
@@ -718,7 +721,7 @@ window.__ModuleLoader__.load({
         h(
           'span',
           { className: 'sa-msg-chip-label' },
-          `${t('chipLabel')}${summary ? ` · ${summary}` : ''}`,
+          summary || t('chipLabel'),
         ),
       );
     }
@@ -1391,7 +1394,7 @@ window.__ModuleLoader__.load({
                   const reference = {
                     source: CHIP_SOURCE,
                     ref,
-                    label: summary ? `${t('chipLabel')} · ${summary}` : t('chipLabel'),
+                    label: summary || t('chipLabel'),
                     appearance: 'file',
                     clipboardText: `[${t('chipLabel')}]`,
                   };
@@ -1495,7 +1498,6 @@ window.__ModuleLoader__.load({
                   'div',
                   { className: 'sa-head' },
                   h('span', { className: 'sa-head-icon' }, h(AnnotationIcon, { size: 13 })),
-                  h('div', { className: 'sa-title' }, t('peekTitle')),
                   h(
                     'button',
                     {
