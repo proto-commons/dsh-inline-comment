@@ -67,8 +67,8 @@ plugin_manager install_bundle
   target: /path/to/dsh-inline-comment
 ```
 
-On this machine the checkout lives at `~/protocom/dsh-inline-comment`, so the target is
-`/Users/miochan/protocom/dsh-inline-comment`.
+Point `target` at this checkout's absolute path — for example,
+`~/protocom/dsh-inline-comment`.
 
 Reload the Web window after installing; a full restart is only needed if the client bundle
 revision does not refresh.

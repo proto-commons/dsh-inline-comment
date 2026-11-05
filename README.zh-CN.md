@@ -67,8 +67,7 @@ plugin_manager install_bundle
   target: /path/to/dsh-inline-comment
 ```
 
-本机这份代码在 `~/protocom/dsh-inline-comment`，所以 target 是
-`/Users/miochan/protocom/dsh-inline-comment`。
+`target` 指向这份代码的绝对路径即可，例如 `~/protocom/dsh-inline-comment`。
 
 安装后刷新 Web 窗口；如果客户端 bundle 的 revision 没有更新，再重启 DSH。
 
