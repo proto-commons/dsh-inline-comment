@@ -1,0 +1,3 @@
+- insert:
+    - id: inline-comment
+      name: 'dsh-inline-comment'
