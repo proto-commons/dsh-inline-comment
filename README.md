@@ -24,27 +24,27 @@
 > These are design mocks that mirror the plugin's light-theme tokens, not screenshots of a live session.
 
 <p align="center">
-  <img src="docs/preview-1-select.png" width="860" alt="Selecting text in an assistant reply reveals the Annotate pill">
+  <img src="docs/preview-01-select.png" width="860" alt="Selecting text in an assistant reply reveals the Annotate pill">
 </p>
 <p align="center"><sub><b>1 · Select.</b> Drag over any text in a conversation; the Annotate pill appears next to the selection when you release.</sub></p>
 
 <p align="center">
-  <img src="docs/preview-2-compose.png" width="860" alt="The annotation card with a quote preview and a note field">
+  <img src="docs/preview-02-compose.png" width="860" alt="The annotation card with a quote preview and a note field">
 </p>
 <p align="center"><sub><b>2 · Annotate.</b> The quote is pinned in the card. Enter adds the note, Shift+Enter inserts a newline, Esc cancels.</sub></p>
 
 <p align="center">
-  <img src="docs/preview-3-chip.png" width="860" alt="The annotation chip in the composer with a hover preview">
+  <img src="docs/preview-03-chip.png" width="860" alt="The annotation chip in the composer with a hover preview">
 </p>
 <p align="center"><sub><b>3 · Attach.</b> The note lands at the end of the composer as one atomic chip, with the caret after it. Hover or click to re-read the quote and note.</sub></p>
 
 <p align="center">
-  <img src="docs/preview-4-sent.png" width="860" alt="A sent user message keeps the annotation chip and shows a preview">
+  <img src="docs/preview-04-sent.png" width="860" alt="A sent user message keeps the annotation chip and shows a preview">
 </p>
 <p align="center"><sub><b>4 · Send.</b> Sent messages keep the chip instead of spilling the quote block into the bubble. The model still receives the readable quote block.</sub></p>
 
 <p align="center">
-  <img src="docs/preview-5-settings.png" width="860" alt="The Comment shortcut row in General settings">
+  <img src="docs/preview-05-settings.png" width="860" alt="The Comment shortcut row in General settings">
 </p>
 <p align="center"><sub><b>5 · Configure.</b> Settings → General → Comment shortcut switches between Enter and ⌘/Ctrl+Enter.</sub></p>
 

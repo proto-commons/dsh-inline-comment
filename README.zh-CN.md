@@ -24,27 +24,27 @@
 > 下面是用插件同一套浅色主题变量做的设计稿，不是运行中会话的截图。
 
 <p align="center">
-  <img src="docs/preview-1-select.png" width="860" alt="在回复里选中文字，旁边出现批注按钮">
+  <img src="docs/preview-01-select.png" width="860" alt="在回复里选中文字，旁边出现批注按钮">
 </p>
 <p align="center"><sub><b>1 · 选中。</b>在会话里拖选任意文字，松手后选区旁出现「批注」胶囊。</sub></p>
 
 <p align="center">
-  <img src="docs/preview-2-compose.png" width="860" alt="带原文引用的批注卡片">
+  <img src="docs/preview-02-compose.png" width="860" alt="带原文引用的批注卡片">
 </p>
 <p align="center"><sub><b>2 · 批注。</b>卡片里固定显示原文；回车添加，Shift+回车换行，Esc 取消。</sub></p>
 
 <p align="center">
-  <img src="docs/preview-3-chip.png" width="860" alt="输入框里的批注胶囊与悬停预览">
+  <img src="docs/preview-03-chip.png" width="860" alt="输入框里的批注胶囊与悬停预览">
 </p>
 <p align="center"><sub><b>3 · 附加。</b>批注追加到输入框末尾，成为一枚原子胶囊，光标落在其后；悬停或点击可回看原文和批注。</sub></p>
 
 <p align="center">
-  <img src="docs/preview-4-sent.png" width="860" alt="发送后的消息里保留批注胶囊">
+  <img src="docs/preview-04-sent.png" width="860" alt="发送后的消息里保留批注胶囊">
 </p>
 <p align="center"><sub><b>4 · 发送。</b>消息里保留胶囊，而不是把整段引用铺进气泡；模型收到的仍是可读的引用块。</sub></p>
 
 <p align="center">
-  <img src="docs/preview-5-settings.png" width="860" alt="通用设置里的批注快捷键">
+  <img src="docs/preview-05-settings.png" width="860" alt="通用设置里的批注快捷键">
 </p>
 <p align="center"><sub><b>5 · 设置。</b>设置 → 通用 →「批注快捷键」，在回车与 ⌘/Ctrl+回车之间切换。</sub></p>
 
